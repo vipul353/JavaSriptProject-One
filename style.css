@@ -10,8 +10,6 @@ body {
   padding: 0px;
   margin: 0px;
   background-color: #3d087b;
-
-  font-size: 62.5%;
 }
 
 .container {
@@ -19,6 +17,7 @@ body {
   padding-top: 2rem;
   padding-bottom: 2rem;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: start;
   width: 100vw;
@@ -33,6 +32,7 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-inline: 1rem;
+
 }
 
 .logo {
@@ -115,7 +115,7 @@ body {
 .text-massege {
   font-family: "Baumans", sans-serif;
   font-size: 1.8rem;
-
+  text-align: center;
   color: white;
 
   font-weight: 900;
@@ -311,10 +311,251 @@ body {
   align-items: center;
 }
 
-.img{
+.img {
   height: 100%;
   width: 70%;
   border: 1px solid white;
   background-image: url(./images/Component.svg);
   background-size: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    padding-inline: 5rem;
+  }
+  .text {
+    font-size: 0.95rem;
+  }
+  .logo-text {
+    width: 61%;
+  }
+
+  .text-massege {
+    font-size: 1.6rem;
+  }
+
+  .party-button {
+    font-size: 1.8rem;
+  }
+
+  .timing {
+    font-size: 0.85rem;
+    width: 54%;
+  }
+  .middle-container {
+    bottom: 14%;
+  }
+
+  .top-container {
+    height: 6rem;
+  }
+  .middle-container {
+    bottom: 11%;
+  }
+
+  .top-container {
+    height: 7rem;
+  }
+
+  .box {
+    width: 4.8rem;
+  }
+
+  .boxy {
+    width: 4.2rem;
+  }
+
+  .timer-hour {
+    font-size: 1.6rem;
+  }
+
+  .timer-subtitle {
+    font-size: 1.6rem;
+  }
+
+
+  .timer-lable {
+    font-size: 1.78rem;
+  }
+
+
+  .timer-value {
+    font-size: 2rem;
+  }
+
+  .msg-box-title {
+    font-size: 2rem;
+  }
+  .img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .text {
+    font-size: 1.2rem;
+  }
+
+  * {
+    overflow-y: unset;
+  }
+  .text-massege {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+  .massege {
+    justify-content: center;
+  }
+  .container {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 127vh;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+
+  .box {
+    width: 5.8rem;
+  }
+
+  .boxy {
+    width: 6.0rem;
+  }
+
+  .timer-hour {
+    font-size: 1.8rem;
+  }
+
+  .timer-subtitle {
+    font-size: 1.7rem;
+  }
+
+.timing
+{
+  font-size: 1rem;
+}
+
+  .timer-lable {
+    font-size: 1.9rem;
+  }
+
+  /* font: normal normal normal 36px/43px Barlow; */
+
+  .timer-value {
+    font-size: 2rem;
+  }
+
+  /* @media screen and (max-width: 768px) {
+  
+  
+  } */
+
+}
+
+@media screen and (max-width:660px) {
+  .box {
+    width: 4.8rem;
+  }
+
+  .boxy {
+    width: 4.2rem;
+  }
+
+  .timer-hour {
+    font-size: 1.6rem;
+  }
+
+  .timer-subtitle {
+    font-size: 1.6rem;
+  }
+
+  /* font: normal normal 600 20px/32px Manrope; */
+
+  .timer-lable {
+    font-size: 1.78rem;
+  }
+
+  /* font: normal normal normal 36px/43px Barlow; */
+
+  .timer-value {
+    font-size: 2rem;
+  }
+  .msg-box-title {
+    font-size: 1.5rem;
+  }
+
+  .container {
+ 
+    height: 124vh;
+  }
+}
+
+@media screen and (max-width:552px) {
+  .container{
+    padding-inline: 2rem;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:468px) {
+  .text {
+    font-size: 0.95rem;
+  }
+  .timing {
+    font-size: 0.87rem;
+
+  }
+
+  .container{
+    height: 119vh;
+  }
+ 
+  .middle-container {
+    bottom: 14%;
+  }
+
+  .top-container {
+    height: 6rem;
+  }
+  .middle-container {
+    bottom: 20%;
+  }
+
+  .lower-container{
+    bottom: 0%;
+  }
+
+  .top-container {
+    height: 5.6rem;
+  }
+
+  .box {
+    width: 4.2rem;
+  }
+
+  .boxy {
+    width: 4.2rem;
+  }
+
+  .timer-hour {
+    font-size: 1.1rem;
+  }
+
+  .timer-subtitle {
+    font-size: 1.6rem;
+  }
+
+
+  .timer-lable {
+    font-size: 1.78rem;
+  }
+
+
+  .timer-value {
+    font-size: 2rem;
+  }
+
 }
