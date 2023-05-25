@@ -32,7 +32,6 @@ body {
   justify-content: space-between;
   align-items: center;
   margin-inline: 1rem;
-
 }
 
 .logo {
@@ -373,11 +372,9 @@ body {
     font-size: 1.6rem;
   }
 
-
   .timer-lable {
     font-size: 1.78rem;
   }
-
 
   .timer-value {
     font-size: 2rem;
@@ -416,13 +413,12 @@ body {
     margin-bottom: 1rem;
   }
 
-
   .box {
     width: 5.8rem;
   }
 
   .boxy {
-    width: 6.0rem;
+    width: 6rem;
   }
 
   .timer-hour {
@@ -433,10 +429,9 @@ body {
     font-size: 1.7rem;
   }
 
-.timing
-{
-  font-size: 1rem;
-}
+  .timing {
+    font-size: 1rem;
+  }
 
   .timer-lable {
     font-size: 1.9rem;
@@ -452,10 +447,9 @@ body {
   
   
   } */
-
 }
 
-@media screen and (max-width:660px) {
+@media screen and (max-width: 660px) {
   .box {
     width: 4.8rem;
   }
@@ -488,31 +482,43 @@ body {
   }
 
   .container {
- 
     height: 124vh;
   }
 }
 
-@media screen and (max-width:552px) {
-  .container{
+@media screen and (max-width: 552px) {
+  .container {
     padding-inline: 2rem;
     align-items: center;
   }
 }
 
-@media screen and (max-width:468px) {
+@media screen and (max-width: 468px) {
   .text {
     font-size: 0.95rem;
   }
   .timing {
-    font-size: 0.87rem;
-
+    font-size: 0.82rem;
+    font-weight: 500;
   }
 
-  .container{
+  .msg-box {
+    height: 6rem;
+  }
+
+  .msg-box-title {
+    font-size: 1.3rem;
+  }
+
+  .text-massege {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .container {
     height: 119vh;
   }
- 
+
   .middle-container {
     bottom: 14%;
   }
@@ -524,7 +530,7 @@ body {
     bottom: 20%;
   }
 
-  .lower-container{
+  .lower-container {
     bottom: 0%;
   }
 
@@ -548,14 +554,41 @@ body {
     font-size: 1.6rem;
   }
 
-
   .timer-lable {
     font-size: 1.78rem;
   }
 
-
   .timer-value {
     font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 396px) {
+  .party-button {
+    font-size: 1.4rem;
+  }
+  .drop-down {
+    font-size: 0.8rem;
+  }
+  .text-massege {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .msg-box-title {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .msg-box {
+    height: 5rem;
+  }
+  
+  .card{
+    margin-bottom: 0.8rem;
+  }
+
+  .container{
+    height: 116vh;
   }
 
 }
