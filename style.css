@@ -38,6 +38,23 @@ body {
   margin-inline: 1rem;
 }
 
+.resp{
+  display: flex;
+}
+
+.clock-cont{
+  display: none;
+}
+
+.msg-box-resp{
+  display: none;
+  margin-top: 1rem;
+}
+
+.img-resp{
+  display: none;
+}
+
 .logo {
   display: flex;
   justify-content: start;
@@ -292,6 +309,16 @@ body {
   align-items: center;
 }
 
+.msg-box-r {
+  width: 100%;
+  height: 9rem;
+  border-radius: 10px;
+  background-color: white;
+  margin-block: 1.5rem;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
 /* font: normal normal 900 30px/40px Bauhaus Hv BT; */
 
 .msg-box-title {
@@ -313,6 +340,17 @@ body {
   align-items: center;
 }
 
+.img-box-r {
+  height: 26rem;
+  width: 100%;
+  border-radius: 10px;
+  background: white;
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .img {
   height: 100%;
   width: 70%;
@@ -320,6 +358,10 @@ body {
   background-image: url(./images/Component.svg);
   background-size: cover;
 }
+
+/* @media screen and(min-width:760px) {
+ 
+} */
 
 @media screen and (max-width: 1024px) {
   html {
@@ -336,76 +378,23 @@ body {
     font-size: 1.3rem;
     color: #3d087bde;
   }
-  /* .container {
-    padding-inline: 5rem;
-  }
-  .text {
-    font-size: 0.95rem;
-  }
-  .logo-text {
-    width: 61%;
-  }
 
-  .text-massege {
-    font-size: 1.6rem;
-  }
-
-  .party-button {
-    font-size: 1.8rem;
-  }
-
-  .timing {
-    font-size: 0.85rem;
-    width: 54%;
-  }
-  .middle-container {
-    bottom: 14%;
-  }
-
-  .top-container {
-    height: 6rem;
-  }
-  .middle-container {
-    bottom: 11%;
-  }
-
-  .top-container {
-    height: 7rem;
-  }
-
-  .box {
-    width: 4.8rem;
-  }
-
-  .boxy {
-    width: 4.2rem;
-  }
-
-  .timer-hour {
-    font-size: 1.6rem;
-  }
-
-  .timer-subtitle {
-    font-size: 1.6rem;
-  }
-
-  .timer-lable {
-    font-size: 1.78rem;
-  }
-
-  .timer-value {
-    font-size: 2rem;
-  }
-
-  .msg-box-title {
-    font-size: 2rem;
-  }
-  .img {
-    width: 100%;
-  } */
 }
 
 @media screen and (max-width: 768px) {
+  .clock-cont{
+    display: block;
+  }
+
+  .msg-box-r{
+    display: flex;
+ 
+  }
+
+  .img-box-r{
+    display: flex;
+    margin-top: 5rem;
+  }
   .container {
     flex-direction: column;
     justify-content: space-between;
@@ -419,6 +408,11 @@ body {
   * {
     overflow-y: unset;
   }
+
+  .resp{
+    display: none;
+  }
+
   .card {
     width: 100%;
     margin-bottom: 1rem;
@@ -443,47 +437,7 @@ body {
   .timer-subtitle {
     font-size: 2.7rem;
   }
-  /* .text {
-    font-size: 1.2rem;
-  }
 
-  .text-massege {
-    font-size: 1.6rem;
-    text-align: center;
-  }
-  .massege {
-    justify-content: center;
-  }
-
-
-
-  .box {
-    width: 5.8rem;
-  }
-
-  .boxy {
-    width: 6rem;
-  }
-
-
-
-  .timing {
-    font-size: 1rem;
-  }
-
-  .timer-lable {
-    font-size: 1.9rem;
-  }
-
-
-  .timer-value {
-    font-size: 2rem;
-  } */
-
-  /* @media screen and (max-width: 768px) {
-  
-  
-  } */
 }
 
 @media screen and (max-width:425px) {
@@ -495,45 +449,12 @@ body {
     font-size: 48%;
   }
   .logo{
-    height: 10rem;
+    height: 14rem;
   }
   .time-card{
     height: 36vh;
   }
-  /* .box {
-    width: 4.8rem;
-  }
 
-  .boxy {
-    width: 4.2rem;
-  }
-
-  .timer-hour {
-    font-size: 1.6rem;
-  }
-
-  .timer-subtitle {
-    font-size: 1.6rem;
-  }
-
-
-
-  .timer-lable {
-    font-size: 1.78rem;
-  }
-
-
-
-  .timer-value {
-    font-size: 2rem;
-  }
-  .msg-box-title {
-    font-size: 1.5rem;
-  }
-
-  .container {
-    height: 124vh;
-  } */
 }
 
 @media screen and (max-width: 552px) {
@@ -547,73 +468,7 @@ body {
   html{
     font-size: 48%;
   }
-  /* .text {
-    font-size: 0.95rem;
-  }
-  .timing {
-    font-size: 0.82rem;
-    font-weight: 500;
-  }
 
-  .msg-box {
-    height: 6rem;
-  }
-
-  .msg-box-title {
-    font-size: 1.3rem;
-  }
-
-  .text-massege {
-    font-size: 1.4rem;
-    text-align: center;
-  }
-
-  .container {
-    height: 119vh;
-  }
-
-  .middle-container {
-    bottom: 14%;
-  }
-
-  .top-container {
-    height: 6rem;
-  }
-  .middle-container {
-    bottom: 20%;
-  }
-
-  .lower-container {
-    bottom: 0%;
-  }
-
-  .top-container {
-    height: 5.6rem;
-  }
-
-  .box {
-    width: 4.2rem;
-  }
-
-  .boxy {
-    width: 4.2rem;
-  }
-
-  .timer-hour {
-    font-size: 1.1rem;
-  }
-
-  .timer-subtitle {
-    font-size: 1.6rem;
-  }
-
-  .timer-lable {
-    font-size: 1.78rem;
-  }
-
-  .timer-value {
-    font-size: 2rem;
-  } */
 }
 
 @media screen and (max-width: 320px) {
@@ -641,30 +496,5 @@ body {
     width: 100%;
   }
 
-  /* .party-button {
-    font-size: 1.4rem;
-  }
-  .drop-down {
-    font-size: 0.8rem;
-  }
-  .text-massege {
-    font-size: 1.3rem;
-    font-weight: 500;
-  }
-  .msg-box-title {
-    font-size: 1rem;
-    font-weight: 500;
-  }
-
-  .msg-box {
-    height: 5rem;
-  }
-
-  .card {
-    margin-bottom: 0.8rem;
-  }
-
-  .container {
-    height: 116vh;
-  } */
+ 
 }
