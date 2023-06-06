@@ -486,8 +486,21 @@ body {
   } */
 }
 
-@media screen and (max-width: 660px) {
-  .box {
+@media screen and (max-width:425px) {
+  .container{
+    height: 165vh;
+  }
+  
+  html{
+    font-size: 48%;
+  }
+  .logo{
+    height: 10rem;
+  }
+  .time-card{
+    height: 36vh;
+  }
+  /* .box {
     width: 4.8rem;
   }
 
@@ -503,13 +516,13 @@ body {
     font-size: 1.6rem;
   }
 
-  /* font: normal normal 600 20px/32px Manrope; */
+
 
   .timer-lable {
     font-size: 1.78rem;
   }
 
-  /* font: normal normal normal 36px/43px Barlow; */
+
 
   .timer-value {
     font-size: 2rem;
@@ -520,7 +533,7 @@ body {
 
   .container {
     height: 124vh;
-  }
+  } */
 }
 
 @media screen and (max-width: 552px) {
@@ -530,8 +543,11 @@ body {
   }
 }
 
-@media screen and (max-width: 468px) {
-  .text {
+@media screen and (max-width: 375px) {
+  html{
+    font-size: 48%;
+  }
+  /* .text {
     font-size: 0.95rem;
   }
   .timing {
@@ -597,11 +613,35 @@ body {
 
   .timer-value {
     font-size: 2rem;
-  }
+  } */
 }
 
-@media screen and (max-width: 396px) {
-  .party-button {
+@media screen and (max-width: 320px) {
+  html{
+    font-size: 48%;
+  }
+
+  .text-massege{
+    font-size: 2.0rem;
+  }
+  
+  .top-container{
+    height: 9rem;
+  }
+  .box{
+    width: 7rem;
+  }
+  .boxy{
+    width: 6rem;
+  }
+  .msg-box-title{
+    font-size: 2.2rem;
+  }
+  .img{
+    width: 100%;
+  }
+
+  /* .party-button {
     font-size: 1.4rem;
   }
   .drop-down {
@@ -626,5 +666,5 @@ body {
 
   .container {
     height: 116vh;
-  }
+  } */
 }
