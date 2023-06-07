@@ -121,6 +121,35 @@ body {
   color: #3d087bde;
 }
 
+.forwakeUpValue {
+  /* font: normal normal normal 14px/20px 'Manrope'; */
+  font-family: "Manrope" sans-serif;
+  font-weight: normal;
+  font-size: 1.4rem;
+  color: #3d087bde;
+}
+
+.napTimeValue{
+  font-family: "Manrope" sans-serif;
+  font-weight: normal;
+  font-size: 1.4rem;
+  color: #3d087bde;
+}
+
+.forlunchValue{
+  font-family: "Manrope" sans-serif;
+  font-weight: normal;
+  font-size: 1.4rem;
+  color: #3d087bde;
+}
+
+.nightTimeValue{
+  font-family: "Manrope" sans-serif;
+  font-weight: normal;
+  font-size: 1.4rem;
+  color: #3d087bde;
+}
+
 .massege {
   margin-top: 1rem;
   padding: 1.7rem;
